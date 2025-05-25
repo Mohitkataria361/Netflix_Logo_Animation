@@ -1,0 +1,213 @@
+* {
+    background-color: black;
+}
+.net1 {
+  
+    
+    height: 50px;
+    width: 3px;
+    position: absolute; 
+    top: 300px;
+    left: 708px;
+    background-color: black;
+z-index: 3;
+  
+transform: rotate(180deg);
+}
+#line1
+{
+    background-color: crimson;
+    height: 0px;
+    width: 12px;
+    
+    transform: rotate(180deg);
+       
+    animation: topr 0.5s ease-out 0s normal forwards;
+    
+    
+    
+    
+}
+@keyframes rotatedtopr {
+    from{
+        height: 0px;
+
+    }
+    to {
+        height: 73px;
+    }
+}
+
+@keyframes topr {
+    from{
+        height: 0px;
+
+    }
+    to {
+        height: 80px;
+    }
+}
+
+/* rotated N */
+
+.rnet1 {
+  
+    
+    height: 50px;
+    width: 2px;
+    position: absolute; 
+    top: 265px;
+    left: 720px;
+    background-color: black;
+
+  transform: rotate(-38deg) ;
+  
+
+
+}
+.rnet2 {
+  
+    
+    height: 50px;
+    width: 2px;
+    position: absolute; 
+    top: 268px;
+    left: 718px;
+    background-color: black;
+
+  transform: rotate(-38deg);
+
+
+} 
+ .rnet3 {
+  
+    
+    height: 50px;
+    width: 2px;
+    position: absolute; 
+    top: 269px;
+    left: 715px;
+    background-color: black;
+
+  transform: rotate(-38deg);
+
+}
+.rnet4 {
+  
+    
+    height: 50px;
+    width: 2px;
+    position: absolute; 
+    top: 280px;
+    left: 720px;
+    background-color: black;
+
+  
+transform: rotate(-38deg);
+}
+.rnet5 {
+  
+    
+    height: 50px;
+    width: 2px;
+    position: absolute; 
+    top: 285px;
+    left: 720px;
+    background-color: black;
+
+  
+transform: rotate(-38deg);
+}
+
+#rline1
+{
+    background-color: rgb(103, 2, 22);
+    height: 0px;
+    width: 2px;
+    
+    transform: rotate(180deg);
+     
+    animation: rotatedtopr 0.5s ease-in 1s normal forwards;
+     
+}
+#rline2
+{
+    
+    background-color: rgb(103, 2, 22);
+    height: 0px;
+    width: 2px;
+    
+    transform: rotate(180deg);
+       
+    animation: rotatedtopr 0.5s ease-in 1s normal forwards;
+    
+    
+}
+#rline3
+{
+       background-color: rgb(103, 2, 22);
+    height: 0px;
+    width: 2px;
+    
+    transform: rotate(180deg);
+     
+    animation: topr 0.5s ease-in 1s normal forwards;
+    
+   
+}
+#rline4
+{
+    
+    background-color: rgb(103, 2, 22);
+    height: 0px;
+    width: 2px;
+    
+    transform: rotate(180deg);
+   
+    animation: rotatedtopr 0.5s ease-in 1s normal forwards;
+    
+    
+   
+}
+#rline5
+{
+    
+    background-color: rgb(103, 2, 22);
+    height: 0px;
+    width: 2px;
+    
+    transform: rotate(180deg);
+      
+    animation: rotatedtopr 0.5s0s ease-in 1s normal forwards;
+
+    
+    
+}
+
+
+/* new line animation */
+.vnet1 {
+  
+    
+    height: 50px;
+    width: 12px;
+    position: absolute; 
+    top: 270px;
+    left: 740px;
+    background-color: black;
+    border-top-left-radius: 50%;
+  z-index: 3;
+
+}
+
+
+#vline1
+{
+    background-color: crimson;
+    height: 0px;
+    width: 12px;
+    
+    
+       
+    animation: topr 0.5s ease-out 2s normal forwards;
+}
